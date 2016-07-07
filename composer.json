@@ -1,0 +1,23 @@
+{
+  "name": "lmyd/dbquerybuilder",
+  "description": "Library used to build sql string for MySql",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Lukasz Mydlarski",
+      "email": "lmydlarski@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "LMYD\\DbQueryBuilder\\": "src/",
+      "LMYD\\Test\\DbQueryBuilder\\": "test/"
+    }
+  }
+}
